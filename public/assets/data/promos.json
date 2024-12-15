@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Promo Hamburguesas Gourmet",
+    "description": "Incluye hamburguesas, panes, aderezos, queso Cheddar y servilletas.",
+    "image": "./assets/img/promo_gourmet.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Promo Hamburguesas Tradicionales",
+    "description": "Incluye hamburguesas, panes, aderezos, y servilletas.",
+    "image": "./assets/img/promo_tradicional.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Promo Hamburguesas Finas",
+    "description": "Incluye hamburguesas, panes, aderezos y servilletas.",
+    "image": "./assets/img/promo_finas.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Promo Freezer",
+    "description": "Hamburguesas y Milanesas para tener siempre en tu freezer.",
+    "image": "./assets/img/promo_freezer.jpg"
+  }
+]

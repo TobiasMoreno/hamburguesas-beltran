@@ -1,0 +1,29 @@
+<div class="bg-dark text-white text-center py-4">
+  <h1>Combos de Fiesta - Hamburguesas Beltrán</h1>
+  <p>
+    Todo lo que necesitas para una fiesta perfecta, ¡con nuestras deliciosas
+    hamburguesas!
+  </p>
+</div>
+<section class="container py-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    @for (promo of promos; track $index) {
+    <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+      <div class="card m-2 promo-card py-3" style="width: 300px">
+        <img
+          src="{{ promo.image }}"
+          class="card-img-top"
+          alt="{{ promo.title }}"
+        />
+        <div class="card-body">
+          <h5 class="card-title text-center">{{ promo.title }}</h5>
+          <p class="card-text ">
+            {{ promo.description }}
+          </p>
+          <a href="#" class="btn btn-dark">Realizar Pedido</a>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</section>

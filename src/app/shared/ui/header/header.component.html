@@ -1,0 +1,66 @@
+<header>
+  <nav class="navbar navbar-expand-lg container-fluid fixed-top navbar-light">
+    <a class="navbar-brand" routerLink="/">
+      <img src="./assets/img/logo_header.png" alt="Logo" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNav"
+      #navbarNav
+    >
+      <ul class="navbar-nav text-dark">
+        <li class="nav-item">
+          <a
+            class="nav-link text-dark"
+            routerLink="/store"
+            (click)="closeNavbar(navbarNav)"
+            >Tienda</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-dark"
+            routerLink="/"
+            (click)="closeNavbar(navbarNav)"
+            >Sobre Nosotros</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-dark"
+            routerLink="/"
+            (click)="closeNavbar(navbarNav)"
+            >Productos</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-dark"
+            routerLink="/"
+            (click)="closeNavbar(navbarNav)"
+            >Contacto</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-dark"
+            routerLink="/"
+            (click)="closeNavbar(navbarNav)"
+            >Ubicación</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
