@@ -12,6 +12,6 @@ export const routes: Routes = [
   },
   {
     path: 'store',
-    loadComponent: () => import('./components/store/store.component')
+    loadChildren: () => import('./components/store/store.routes')
   }
 ];

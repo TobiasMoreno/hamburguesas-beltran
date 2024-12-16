@@ -17,10 +17,10 @@
         />
         <div class="card-body">
           <h5 class="card-title text-center">{{ promo.title }}</h5>
-          <p class="card-text ">
+          <p class="card-text">
             {{ promo.description }}
           </p>
-          <a href="#" class="btn btn-dark">Realizar Pedido</a>
+          <a  [routerLink]="['/store/shop', promo.id]" class="btn btn-dark">Realizar Pedido</a>
         </div>
       </div>
     </div>

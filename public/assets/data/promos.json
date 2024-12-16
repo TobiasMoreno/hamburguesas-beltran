@@ -3,24 +3,33 @@
     "id": 1,
     "title": "Promo Hamburguesas Gourmet",
     "description": "Incluye hamburguesas, panes, aderezos, queso Cheddar y servilletas.",
-    "image": "./assets/img/promo_gourmet.jpg"
+    "fullDescription":"Combo de hamburguesas gruesas para la Parrilla!!, Hamburguesas Gruesas 83,5 gr cada una, panes de papa, Aderezos Dánica (Mayonesa, Mostaza, Ketchup)",
+    "image": "./assets/img/promo_gourmet.jpg",
+    "price_x_30": 116000,
+    "price_x_45": 149000,
+    "price_x_60": 169000
   },
   {
     "id": 2,
     "title": "Promo Hamburguesas Tradicionales",
-    "description": "Incluye hamburguesas, panes, aderezos, y servilletas.",
-    "image": "./assets/img/promo_tradicional.jpg"
+    "description": "Combo de hamburguesas gruesas para la Parrilla!!, Hamburguesas Gruesas 83,5 gr cada una, panes de papa, Aderezos Dánica (Mayonesa, Mostaza, Ketchup)",
+    "image": "./assets/img/promo_tradicional.jpg",
+    "price_x_30": 66000,
+    "price_x_45": 86000,
+    "price_x_60": 95000
   },
   {
     "id": 3,
     "title": "Promo Hamburguesas Finas",
     "description": "Incluye hamburguesas, panes, aderezos y servilletas.",
-    "image": "./assets/img/promo_finas.jpg"
+    "image": "./assets/img/promo_finas.jpg",
+    "price_x_60": 85000
   },
   {
     "id": 4,
     "title": "Promo Freezer",
     "description": "Hamburguesas y Milanesas para tener siempre en tu freezer.",
-    "image": "./assets/img/promo_freezer.jpg"
+    "image": "./assets/img/promo_freezer.jpg",
+    "price_x_60": 44600
   }
 ]

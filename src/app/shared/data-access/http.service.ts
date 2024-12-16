@@ -10,7 +10,8 @@ export class HttpService {
   http = inject(HttpClient);
   dataUrl = 'assets/data/promos.json';
 
-  getData(): Observable<Promo[]> {
+  getPromos(): Observable<Promo[]> {
     return this.http.get<Promo[]>(this.dataUrl);
   }
+
 }
